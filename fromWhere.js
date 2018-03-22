@@ -12,4 +12,4 @@ if(typeof(regNum) == "string"){
     return "Error, String is expected!"
   }
 }
-document.write(fromWhere('DN 1273 GP'));
+console.log(fromWhere('DN 1273 GP'));

@@ -22,5 +22,5 @@ function totalPhoneBill(myStr){
   totalBill = countCalls+countSMS;
   return "R"+(totalBill.toFixed(2));
 }
-document.write(totalPhoneBill("call, call, sms"));
-document.write(totalPhoneBill("call, call, sms, sms, sms, sms, sms, call"));
+console.log(totalPhoneBill("call, call, sms"));
+console.log(totalPhoneBill("call, call, sms, sms, sms, sms, sms, call"));

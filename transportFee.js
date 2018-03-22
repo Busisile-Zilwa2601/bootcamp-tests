@@ -8,3 +8,4 @@ function transportFee(shiftWork){
     else;
         return "Error, a shift is required";
 }
+console.log(transportFee("morning"));

@@ -4,5 +4,5 @@ function yearsAgo(myYear){
   	var theYear = (date.getFullYear());
   	return (theYear-myYear);
 }
-document.write(yearsAgo(1989));
-document.write(yearsAgo("2005"));
+console.log(yearsAgo(1989));
+console.log(yearsAgo("2005"));
